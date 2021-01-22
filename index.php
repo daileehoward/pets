@@ -14,7 +14,8 @@ $f3->set('DEBUG', 3);
 
 //Define a default route (home page)
 $f3->route('GET /', function () {
-    echo "Pet Home";
     $view = new Template();
-    //echo $view->render('views/home.html');
+    echo $view->render('views/home.html');
 });
+
+$f3->run();
