@@ -2,5 +2,8 @@ img {
     border-radius: 50%;
     width: 200px;
     height: 10%;
+    border: solid black;
+    border: 3px;
+
 
 }
